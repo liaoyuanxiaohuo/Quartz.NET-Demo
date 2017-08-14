@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This file contains job definitions in schema version 2.0 format -->
+
+<job-scheduling-data xmlns="http://quartznet.sourceforge.net/JobSchedulingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+
+  <processing-directives>
+    <overwrite-existing-data>true</overwrite-existing-data>
+  </processing-directives>
+
+  <schedule>
+
+    <!--划扣银行卡 任务配置-->
+    <!--<job>
+      <name>BankCardJob</name>
+      <group>BankCard</group>
+      <description>划扣银行卡</description>
+      <job-type>QuartzDemo.QuartzJobs.BankCardJob,QuartzDemo</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>BankCardJobTrigger</name>
+        <group>BankCard</group>
+        <job-name>BankCardJob</job-name>
+        <job-group>BankCard</job-group>
+        <start-time>2015-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0/5 * * * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+
+    <!--发送邮件 任务配置-->
+    <!--<job>
+      <name>SendJob</name>
+      <group>发送邮件组</group>
+      <description>发送邮件</description>
+      <job-type>StudyQuartzNet.QuartzJobs.SendJob,StudyQuartzNet</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>SendJobTrigger</name>
+        <group>send</group>
+        <job-name>SendJob</job-name>
+        <job-group>发送邮件组</job-group>
+        --><!--<start-time>2017-01-22T00:00:00+08:00</start-time>--><!--
+        <cron-expression>0/10 * * * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+    
+      <!--发送邮件 任务配置-->
+    <job>
+      <name>ShowJob</name>
+      <group>显示测试组</group>
+      <description>显示</description>
+      <job-type>StudyQuartzNet.QuartzJobs.ShowJob,StudyQuartzNet</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>ShowJobTrigger</name>
+        <group>send</group>
+        <job-name>ShowJob</job-name>
+        <job-group>显示测试组</job-group>
+        <!--<start-time>2017-01-22T00:00:00+08:00</start-time>-->
+        <cron-expression>0/10 * * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--更新用户城市 任务配置-->
+    <job>
+      <name>UpdateCityJob</name>
+      <group>Test组</group>
+      <description>更新用户城市</description>
+      <job-type>StudyQuartzNet.QuartzJobs.UpdateCityJob,StudyQuartzNet</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>UpdateCityJobTrigger</name>
+        <group>UpdateCity</group>
+        <job-name>UpdateCityJob</job-name>
+        <job-group>Test组</job-group>
+        <!--<start-time>2017-01-22T00:00:00+08:00</start-time>-->
+        <cron-expression>0/10 * * * * ?</cron-expression>
+      </cron>
+    </trigger>
+
+    <!--TestJob测试 任务配置-->
+    <job>
+      <name>TestJob</name>
+      <group>Test组</group>
+      <description>TestJob测试</description>
+      <job-type>StudyQuartzNet.QuartzJobs.TestJob,StudyQuartzNet</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+    <trigger>
+      <cron>
+        <name>TestJobTrigger</name>
+        <group>Testff</group>
+        <job-name>TestJob</job-name>
+        <job-group>Test组</job-group>
+        <!--<start-time>2015-01-22T00:00:00+08:00</start-time>-->
+        <cron-expression>0/1 * * * * ?</cron-expression>
+      </cron>
+    </trigger>
+    <!--<trigger>
+      <cron>
+        <name>TestJobTriggerdd</name>
+        <group>Test</group>
+        <job-name>TestJob</job-name>
+        <job-group>Test组</job-group>
+        <start-time>2016-01-22T00:00:00+08:00</start-time>
+        <cron-expression>0/2 * * * * ?</cron-expression>
+      </cron>
+    </trigger>-->
+  </schedule>
+</job-scheduling-data>
