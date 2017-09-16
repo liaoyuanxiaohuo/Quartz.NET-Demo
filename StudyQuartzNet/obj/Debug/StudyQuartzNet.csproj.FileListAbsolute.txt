@@ -27,4 +27,5 @@ E:\学习\StudyQuartzNet\StudyQuartzNet\bin\Debug\EntityFramework.xml
 E:\学习\StudyQuartzNet\StudyQuartzNet\bin\Debug\EntityFramework.SqlServer.xml
 E:\学习\StudyQuartzNet\StudyQuartzNet\bin\Debug\zh-Hans\EntityFramework.resources.dll
 E:\学习\StudyQuartzNet\StudyQuartzNet\bin\Debug\zh-Hans\EntityFramework.SqlServer.resources.dll
+E:\学习\StudyQuartzNet\StudyQuartzNet\obj\Debug\StudyQuartzNet.csproj.CoreCompileInputs.cache
 E:\学习\StudyQuartzNet\StudyQuartzNet\obj\Debug\StudyQuartzNet.csprojResolveAssemblyReference.cache

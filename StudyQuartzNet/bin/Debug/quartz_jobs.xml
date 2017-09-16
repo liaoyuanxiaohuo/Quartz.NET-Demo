@@ -70,6 +70,29 @@
       </cron>
     </trigger>
 
+    <job>
+      <name>HelloJob</name>
+      <group>hello组</group>
+      <description>Hello</description>
+      <job-type>StudyQuartzNet.QuartzJobs.HelloJob,StudyQuartzNet</job-type>
+      <durable>true</durable>
+      <recover>false</recover>
+    </job>
+     <trigger>
+      <simple>
+        <name>simpleName</name>
+        <group>simpleGroup</group>
+        <description>SimpleTriggerDescription</description>
+        <job-name>HelloJob</job-name>
+        <job-group>hello组</job-group>
+        <start-time>1982-06-28T18:15:00.0Z</start-time>
+        <end-time>2020-05-04T18:13:51.0Z</end-time>
+        <misfire-instruction>SmartPolicy</misfire-instruction>
+        <repeat-count>-1</repeat-count>
+        <repeat-interval>6000</repeat-interval>
+      </simple>
+    </trigger>
+
     <!--更新用户城市 任务配置-->
     <job>
       <name>UpdateCityJob</name>
@@ -106,7 +129,7 @@
         <job-name>TestJob</job-name>
         <job-group>Test组</job-group>
         <!--<start-time>2015-01-22T00:00:00+08:00</start-time>-->
-        <cron-expression>0/1 * * * * ?</cron-expression>
+        <cron-expression>0/5 * * * * ?</cron-expression>
       </cron>
     </trigger>
     <!--<trigger>

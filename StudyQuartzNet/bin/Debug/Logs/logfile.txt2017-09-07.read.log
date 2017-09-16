@@ -1,0 +1,110 @@
+2017-09-07 11:00:34,537 [1] INFO  Topshelf.HostFactory - Configuration Result:
+[Success] Name QuartzDemo服务名称
+[Success] DisplayName QuartzDemo服务显示名称
+[Success] Description QuartzDemo服务描述
+[Success] ServiceName QuartzDemo服务名称
+ Topshelf.HostFactoryname2017-09-07 11:00:34,552 [1] INFO  Topshelf.HostConfigurators.HostConfiguratorImpl - Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+ Topshelf.HostConfigurators.HostConfiguratorImplname2017-09-07 11:00:35,490 [1] DEBUG Topshelf.Builders.RunBuilder - Running as a console application, creating the console host.
+ Topshelf.Builders.RunBuildername2017-09-07 11:00:35,507 [1] DEBUG Topshelf.Hosts.ConsoleRunHost - Starting up as a console application
+ Topshelf.Hosts.ConsoleRunHostname2017-09-07 11:00:35,754 [1] INFO  Topshelf.Hosts.ConsoleRunHost - The QuartzDemo服务名称 service is now running, press Control+C to exit.
+ Topshelf.Hosts.ConsoleRunHostname2017-09-07 11:00:35,830 [QuartzTest_Worker-1] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:35
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:36,000 [QuartzTest_Worker-2] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:36
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:36,058 [QuartzTest_Worker-1] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:36,058 [QuartzTest_Worker-2] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:37,000 [QuartzTest_Worker-3] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:37
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:37,000 [QuartzTest_Worker-3] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:38,000 [QuartzTest_Worker-4] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:38
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:38,000 [QuartzTest_Worker-4] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:39,000 [QuartzTest_Worker-5] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:39
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:39,017 [QuartzTest_Worker-5] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:39,183 [QuartzTest_Worker-2] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:39,183 [QuartzTest_Worker-1] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:39,183 [QuartzTest_Worker-5] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:39,184 [QuartzTest_Worker-4] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:39,184 [QuartzTest_Worker-3] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:40,000 [QuartzTest_Worker-7] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:40
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:40,000 [QuartzTest_Worker-7] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:40,016 [QuartzTest_Worker-6] INFO  StudyQuartzNet.QuartzJobs.TestJob - showJob:运行11:00:40
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:40,016 [QuartzTest_Worker-8] INFO  StudyQuartzNet.QuartzJobs.UpdateCityJob - 时间：2017/9/7 11:00:40
+ StudyQuartzNet.QuartzJobs.UpdateCityJobname2017-09-07 11:00:40,051 [QuartzTest_Worker-8] INFO  StudyQuartzNet.QuartzJobs.UpdateCityJob - 开始更新2017/9/7 11:00:40
+ StudyQuartzNet.QuartzJobs.UpdateCityJobname2017-09-07 11:00:40,152 [QuartzTest_Worker-7] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:41,000 [QuartzTest_Worker-9] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:41
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:41,001 [QuartzTest_Worker-9] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:41,059 [QuartzTest_Worker-9] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:42,000 [QuartzTest_Worker-10] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:42
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:42,006 [QuartzTest_Worker-10] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:42,054 [QuartzTest_Worker-10] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:43,000 [QuartzTest_Worker-2] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:43
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:43,003 [QuartzTest_Worker-2] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:43,037 [QuartzTest_Worker-2] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:44,000 [QuartzTest_Worker-1] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:44
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:44,001 [QuartzTest_Worker-1] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:44,005 [QuartzTest_Worker-1] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:45,001 [QuartzTest_Worker-5] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:45
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:45,006 [QuartzTest_Worker-5] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:45,065 [QuartzTest_Worker-5] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:46,028 [QuartzTest_Worker-4] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:46
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:46,029 [QuartzTest_Worker-4] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:46,076 [QuartzTest_Worker-4] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:47,000 [QuartzTest_Worker-3] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:47
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:47,000 [QuartzTest_Worker-3] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:47,035 [QuartzTest_Worker-3] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:48,000 [QuartzTest_Worker-6] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:48
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:48,000 [QuartzTest_Worker-6] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:48,182 [QuartzTest_Worker-6] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:49,000 [QuartzTest_Worker-7] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:49
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:49,000 [QuartzTest_Worker-7] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:49,038 [QuartzTest_Worker-7] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:50,000 [QuartzTest_Worker-9] INFO  StudyQuartzNet.QuartzJobs.TestJob - showJob:运行11:00:50
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:50,000 [QuartzTest_Worker-10] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:50
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:50,002 [QuartzTest_Worker-2] INFO  StudyQuartzNet.QuartzJobs.UpdateCityJob - 时间：2017/9/7 11:00:50
+ StudyQuartzNet.QuartzJobs.UpdateCityJobname2017-09-07 11:00:50,005 [QuartzTest_Worker-2] INFO  StudyQuartzNet.QuartzJobs.UpdateCityJob - 开始更新2017/9/7 11:00:50
+ StudyQuartzNet.QuartzJobs.UpdateCityJobname2017-09-07 11:00:50,002 [QuartzTest_Worker-10] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:50,012 [QuartzTest_Worker-10] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:51,000 [QuartzTest_Worker-1] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:51
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:51,000 [QuartzTest_Worker-1] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:51,014 [QuartzTest_Worker-1] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:52,000 [QuartzTest_Worker-5] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:52
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:52,001 [QuartzTest_Worker-5] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:52,035 [QuartzTest_Worker-5] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:53,000 [QuartzTest_Worker-4] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:53
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:53,000 [QuartzTest_Worker-4] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:53,035 [QuartzTest_Worker-4] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:54,000 [QuartzTest_Worker-3] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:54
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:54,001 [QuartzTest_Worker-3] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:54,005 [QuartzTest_Worker-3] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:55,000 [QuartzTest_Worker-6] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:55
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:55,001 [QuartzTest_Worker-6] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:55,008 [QuartzTest_Worker-6] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:56,000 [QuartzTest_Worker-7] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:56
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:56,001 [QuartzTest_Worker-7] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:56,004 [QuartzTest_Worker-7] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:57,000 [QuartzTest_Worker-9] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:57
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:57,002 [QuartzTest_Worker-9] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:57,021 [QuartzTest_Worker-9] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:58,000 [QuartzTest_Worker-10] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:58
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:58,001 [QuartzTest_Worker-10] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:58,012 [QuartzTest_Worker-10] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:59,784 [QuartzTest_Worker-1] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:00:59
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:59,787 [QuartzTest_Worker-1] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:59,814 [QuartzTest_Worker-1] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:00:59,994 [QuartzTest_Worker-8] INFO  StudyQuartzNet.QuartzJobs.UpdateCityJob - 更新完成2017/9/7 11:00:59
+ StudyQuartzNet.QuartzJobs.UpdateCityJobname2017-09-07 11:01:00,001 [QuartzTest_Worker-5] INFO  StudyQuartzNet.QuartzJobs.TestJob - showJob:运行11:01:00
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:01:00,002 [QuartzTest_Worker-3] INFO  StudyQuartzNet.QuartzJobs.UpdateCityJob - 时间：2017/9/7 11:01:00
+ StudyQuartzNet.QuartzJobs.UpdateCityJobname2017-09-07 11:01:00,003 [QuartzTest_Worker-4] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:01:00
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:01:00,009 [QuartzTest_Worker-4] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:01:00,008 [QuartzTest_Worker-3] INFO  StudyQuartzNet.QuartzJobs.UpdateCityJob - 开始更新2017/9/7 11:01:00
+ StudyQuartzNet.QuartzJobs.UpdateCityJobname2017-09-07 11:01:00,043 [QuartzTest_Worker-4] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:01:01,000 [QuartzTest_Worker-6] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:01:01
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:01:01,000 [QuartzTest_Worker-6] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:01:01,044 [QuartzTest_Worker-6] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:01:02,000 [QuartzTest_Worker-7] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:01:02
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:01:02,003 [QuartzTest_Worker-7] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:01:02,015 [QuartzTest_Worker-7] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:01:03,000 [QuartzTest_Worker-9] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:01:03
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:01:03,002 [QuartzTest_Worker-9] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:01:03,027 [QuartzTest_Worker-9] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:01:04,174 [QuartzTest_Worker-10] INFO  StudyQuartzNet.QuartzJobs.TestJob - TestJob:运行11:01:04
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:01:04,175 [QuartzTest_Worker-10] INFO  StudyQuartzNet.QuartzJobs.TestJob - 开始插入
+ StudyQuartzNet.QuartzJobs.TestJobname2017-09-07 11:01:04,341 [QuartzTest_Worker-10] INFO  StudyQuartzNet.QuartzJobs.TestJob - 插入成功
+ StudyQuartzNet.QuartzJobs.TestJobname

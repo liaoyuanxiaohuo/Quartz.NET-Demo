@@ -83,3 +83,4 @@ E:\学习\StudyQuartzNet\ManageQuartzNet\bin\zh-Hans\System.Web.WebPages.Razor.r
 E:\学习\StudyQuartzNet\ManageQuartzNet\obj\Debug\ManageQuartzNet.csprojResolveAssemblyReference.cache
 E:\学习\StudyQuartzNet\ManageQuartzNet\obj\Debug\ManageQuartzNet.dll
 E:\学习\StudyQuartzNet\ManageQuartzNet\obj\Debug\ManageQuartzNet.pdb
+E:\学习\StudyQuartzNet\ManageQuartzNet\obj\Debug\ManageQuartzNet.csproj.CoreCompileInputs.cache

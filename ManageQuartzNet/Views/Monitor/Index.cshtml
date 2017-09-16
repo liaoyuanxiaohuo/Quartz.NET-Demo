@@ -1,0 +1,178 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+@using ManageQuartzNet.Models
+@model  List<JobGroup>
+<h2 id="flush"><a href="/Monitor/index">刷新</a></h2>
+
+
+<h3>@ViewBag.Error</h3>
+<h4>所有组名：</h4>
+<ul>
+    @foreach (var each in Model)
+    {
+        <li>
+            <h4 style="color:#0094ff;">@each.GroupName &nbsp;&nbsp;[@each.IP:@each.Port]</h4>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Job名</th>
+                        <th>状态</th>
+                        <th>开始时间</th>
+                        <th>结束时间</th>
+                        <th>完成执行时间</th>
+                        <th>上一次执行时间2</th>
+                        <th>下一次执行时间2</th>
+                    </tr>
+                </thead>
+                @foreach (var item in each.JobList)
+                {
+                    <tr>
+                        <td>@item.JobName</td>
+                        <td>@item.JobState</td>
+                        <td>@item.StartTime</td>
+                        <td>@item.EndTime</td>
+                        <td>@item.FinalFireTime</td>
+                        <td>@item.PreviousFireTime2</td>
+                        <td>@item.NextFireTime2</td>
+                    </tr>
+
+                }
+            </table>
+        </li>
+    }
+</ul>
+IP地址：<input id="ip" type="text" />
+<br />
+<br />
+端口号：<input id="port" type="text" />
+<br />
+<br />
+Job名：<input id="jobName" type="text" />
+<br />
+<br />
+组别名：<input id="group" type="text" />
+<br />
+<br />
+@*<input type="button" id="stop" value="暂 停" style="margin-right:20px; width:80px;" />*@
+<input type="button" id="stop2" value="暂 停2" style="margin-right:20px; width:80px;" />
+@*<input type="button" id="start" value="运 行" style="margin-right:20px; width:80px;" />*@
+<input type="button" id="start2" value="运 行2" style="margin-right:20px; width:80px;" />
+<label id="show"></label>
+@section scripts{
+    <script type="text/javascript">
+        $().ready(function () {
+            //$("#flush").click(function (){
+            //    window.location.href = "/Monitor/index";
+            //});
+
+            $("#stop").click(function () {
+                var job = $.trim($("#jobName").val());
+                if (job == "") {
+                    alert("请输入job名");
+                    return;
+                }
+
+                var groupName = $.trim($("#group").val());
+                if (groupName == "") {
+                    alert("请输入group名");
+                    return;
+                }
+
+                $.ajax({
+                    type: "post",
+                    url: "/Monitor/Stop",
+                    data: {
+                        jobName: job,
+                        group: groupName
+                    },
+                    success: function (data) {
+
+                    }
+                });
+            });
+
+            $("#stop2").click(function () {
+                $("#show").text("");
+                var ip = $.trim($("#ip").val());
+                if (ip == "") {
+                    alert("请输入ip");
+                    return;
+                }
+
+                var port = $.trim($("#port").val());
+                if (port == "") {
+                    alert("请输入端口号");
+                    return;
+                }
+                var job = $.trim($("#jobName").val());
+                if (job == "") {
+                    alert("请输入job名");
+                    return;
+                }
+
+                var groupName = $.trim($("#group").val());
+                if (groupName == "") {
+                    alert("请输入group名");
+                    return;
+                }
+
+                $.ajax({
+                    type: "post",
+                    url: "/Monitor/PauseJob",
+                    data: {
+                        ip: ip,
+                        port: port,
+                        jobName: job,
+                        group: groupName
+                    },
+                    success: function (data) {
+                        $("#show").text("暂停：" + data);
+                    }
+                });
+            });
+
+            $("#start2").click(function () {
+                $("#show").text("");
+                var ip = $.trim($("#ip").val());
+                if (ip == "") {
+                    alert("请输入ip");
+                    return;
+                }
+
+                var port = $.trim($("#port").val());
+                if (port == "") {
+                    alert("请输入端口号");
+                    return;
+                }
+                var job = $.trim($("#jobName").val());
+                if (job == "") {
+                    alert("请输入job名");
+                    return;
+                }
+
+                var groupName = $.trim($("#group").val());
+                if (groupName == "") {
+                    alert("请输入group名");
+                    return;
+                }
+
+                $.ajax({
+                    type: "post",
+                    url: "/Monitor/ResumeJob",
+                    data: {
+                        ip: ip,
+                        port: port,
+                        jobName: job,
+                        group: groupName
+                    },
+                    success: function (data) {
+                        $("#show").text("运行：" + data);
+                    }
+                });
+            });
+        });
+    </script>
+}
+
